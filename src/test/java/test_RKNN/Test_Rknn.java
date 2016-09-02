@@ -52,7 +52,8 @@ public class Test_Rknn {
 		rknn.setPointKNN(p1, k);
 		rknn.setPointRnn(p1, k);
 		
-		
+		String str = rknn.findMaxValue(p1, k);
+		System.out.println("P1["+p1.getX()+","+p1.getY()+"]的类型是："+str);
 		
 		
 	}

@@ -93,5 +93,14 @@ public class Rknn {
 		}
 		return ls;
 	}
+	
+	/**
+	 * 找最多的value值
+	 */
+	public String findMaxValue(Point p,int k){
+		KNN knn = new KNN();
+		String str=knn.findMaxValue(p.getRnn(), k);
+		return str;
+	}
 
 }
